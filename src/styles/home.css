@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@800&family=Barlow:wght@300&family=Maven+Pro&family=Monda:wght@700&family=Poppins:wght@300&display=swap');
+
+.home{
+  color: white;
+  padding-top: 6rem;
+  background-color: #303030;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* font-size: 2rem; */
+}
+
+.home-content h1{
+  font-size: 3rem;
+  font-family: 'Monda', sans-serif;
+}
+.home-content h3{
+  font-size: 2rem;
+  font-family: 'Maven Pro', sans-serif;
+  color: #c2fbd7;
+}
+
+.home-content button{
+  background-color: transparent;
+  margin-top: 2rem;
+  width: 8rem;
+  height: 3rem;
+  color: white;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.home-content button:hover{
+  background-color: #90e1ae;
+  border: 1px solid #90e1ae;
+  color: black;
+  /* box-shadow: 1px 1px 1px 0.2rem rgb(202, 227, 214) ; */
+  
+}
+.home-img{
+  width: 600px;
+  /* background-color: antiquewhite; */
+}
+
+.home-img img{
+  width: 100%;
+  pointer-events: none;
+}
