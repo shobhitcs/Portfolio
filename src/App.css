@@ -1,4 +1,51 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@800&family=Barlow:wght@300&family=Maven+Pro&family=Monda:wght@700&family=Poppins:wght@300&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+  background-color: #303030;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.5rem 0 ;
+}
+
+.navbar .logo{
+  font-weight: 700;
+  font-size: 5vmin;
+  /* padding: 0 5rem 0 0 ; */
+  /* background-color: green; */
+}
+.nav-items{
+  display: flex;
+  /* padding: 0 0 0 5rem; */
+  /* background-color: aqua; */
+}
+.nav-items li{
+  /* display: inline-block; */
+  list-style-type: none;
+  padding: 1rem;
+
+}
+.nav-items li a{
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +82,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
