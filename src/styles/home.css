@@ -52,6 +52,67 @@
 
 .home-data{
   background-color: #303030;
-  height: 100vh;
+  height: 90vh;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.home-data img{
+  pointer-events: none;
+  width: 100%;
+}
+.code-test-img{
+  width: 70vmin;
+}
+.performance{
+  width: 100vmin;
+  height: 55vh;
+  background-color: rgb(51, 73, 103);
+  border-radius: 2rem;
+  box-shadow: 15px 15px 10px 5px black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.8rem;
+}
+.card{
+  background-color: rgb(35, 35, 35);
+  height: 90%;
+  width: 88%;
+  /* border-radius: 0.5rem; */
+  position: relative;
+  transition: 0.5s;
+  display: flex;
+  border-radius: 0.5rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.card-head{
+  color: rgb(224, 139, 107);
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.card-body{
+  color: whitesmoke;
+  font-size: 1.1rem;
+}
+/* .card:hover{
+  top: -10px;
+} */
+.push-btn{
+  background-color: black;
+  height: 4rem;
+  width: 1.8rem;
+  border-radius: 3rem;
+  border: 1px solid rgb(141, 140, 140);
+}
+.speaker{
+  background-color: black;
+  height: 6rem;
+  border: 1px solid black;
+  width: 0.5rem;
+  border-radius: 3rem;
 }

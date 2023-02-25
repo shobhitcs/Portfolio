@@ -1,6 +1,6 @@
 .cont-1{
     width: 100%;
-    height: 100vh;
+    height: 75vh;
     background-color: #303030;
     display: flex;
     flex-direction: column;
@@ -18,7 +18,7 @@
 
 .cont-tab{
     width: 100%;
-    height: 95vh;
+    height: 80vh;
     background-color: #303030;
     display: flex;
     flex-direction: column;
@@ -111,12 +111,14 @@
 .cont-form input{
     height: 3rem;
     font-size: 1.3rem;
-    padding: 0 0.5rem;
+    padding: 0 1rem;
+    border-radius: 0.5rem;
 }
 .cont-form textarea{
     height: 10rem;
     font-size: 1.3rem;
-    padding: 0 0.5rem;
+    padding: 0 1rem;
+    border-radius: 0.5rem;
 }
 .cont-form input[type=submit]{
     background-color: #c2fbd7;
