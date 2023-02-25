@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@800&family=Barlow:wght@300&family=Maven+Pro&family=Monda:wght@700&family=Poppins:wght@300&display=swap');
 
-.home{
+.home-head{
   color: white;
   padding-top: 6rem;
   background-color: #303030;
@@ -48,4 +48,10 @@
 .home-img img{
   width: 100%;
   pointer-events: none;
+}
+
+.home-data{
+  background-color: #303030;
+  height: 100vh;
+  width: 100%;
 }

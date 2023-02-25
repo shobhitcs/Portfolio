@@ -18,7 +18,7 @@
 
 .cont-tab{
     width: 100%;
-    height: 90vh;
+    height: 95vh;
     background-color: #303030;
     display: flex;
     flex-direction: column;
@@ -33,14 +33,14 @@
 }
 .cont-group{
     width: 80%;
-    height: 60vh;
+    height: 65vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content:space-evenly;
     /* background-color: aqua; */
     /* justify-content: center; */
-    border: 2px solid #a8fac6;
+    /* border: 2px solid #a8fac6; */
     /* border-radius: 2rem; */
 }
 .cont-img{
@@ -54,8 +54,8 @@
     border-bottom-left-radius: 1rem; */
 }
 .cont-form{
-    width: 50vw;
-    height: 60vh;
+    width: 100%;
+    height: 100%;
     /* background-color: white; */
     /* border: 2px solid #c0d6c8; */
     border-radius: 0.3rem;
@@ -66,6 +66,11 @@
 .cont-form form{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(138, 185, 190); */
 }
 
 .cont-img img{
@@ -102,4 +107,40 @@
     font-family: 'Maven Pro', sans-serif;
     color: rgb(247, 202, 231);
     
+}
+.cont-form input{
+    height: 3rem;
+    font-size: 1.3rem;
+    padding: 0 0.5rem;
+}
+.cont-form textarea{
+    height: 10rem;
+    font-size: 1.3rem;
+    padding: 0 0.5rem;
+}
+.cont-form input[type=submit]{
+    background-color: #c2fbd7;
+    font-weight: 700;
+    transition: 0.3s;
+    border-radius: 0.5rem;
+    font-family: 'Maven Pro', sans-serif;
+}
+.cont-form input[type=submit]:hover{
+    background-color: #6dce91;
+}
+.name-submit{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-big{
+    width: 70%;
+    resize: none;
+
+}
+.form-small{
+    width: 45%;
+}
+.form-x-small{
+    width: 10%;
 }
