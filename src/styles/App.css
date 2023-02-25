@@ -9,7 +9,8 @@
 }
 
 .navbar{
-  background-color: transparent;
+  z-index: 1;
+  background-color: #303030;
   color: white;
   position: fixed;
   top: 0;
@@ -57,11 +58,11 @@
   background-color: #303030;
   height: 200vh;
 } */
-.about{
+/* .about{
   color: black;
   font-size: 200px;
 
-}
+} */
 
 /* .App {
   text-align: center;

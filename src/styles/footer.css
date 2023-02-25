@@ -1,0 +1,50 @@
+.footer{
+    height: 300px;
+}
+.bar{
+    height: 10px;
+    width: 100%;
+    background-color: #c2fbd7;
+}
+.foot{
+    height: 290px;
+    width: 100%;
+    background-color: rgb(89, 171, 137);
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3rem 0 3rem 0;
+}
+.touch{
+    color: black;
+    font-family: 'Monda', sans-serif;
+    font-size: 2.1rem;
+}
+.copyright {
+    color: black;
+    font-family: 'Arima Madurai', cursive;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.attr {
+    color: black;
+    font-family: 'Arima Madurai', cursive;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.attr-link{
+    color: black;
+    font-family: 'Arima Madurai', cursive;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.foot .icons ion-icon{
+    color: black;
+    font-size: 2rem;
+    margin: 0 10px 0 10px;
+}
+.foot .icons{
+    display: flex;
+    /* background-color: #c2fbd7; */
+}
