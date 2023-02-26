@@ -1,0 +1,36 @@
+.e-float{
+    position: fixed;
+    background-color:black;
+    z-index: 10;
+    bottom: 40px;
+    left: auto;
+    right: 60px;
+    height: 3.3rem;
+    border-radius: 1.7rem;
+    border: 1px solid white;
+    /* transition: 2s; */
+    /* box-shadow: 2px 2px 10px 5px #235535; */
+    opacity: 0;
+    animation: slideTop 1.5s ease-in forwards;
+}
+
+.email-text{
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 3rem;   
+}
+
+/* Keyframe Animations */
+@keyframes slideTop {
+    0% {
+      transform: translateY(-30px);
+      opacity: 0;
+    }
+    
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }

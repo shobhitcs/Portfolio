@@ -14,6 +14,8 @@
     font-family: 'Arima Madurai', cursive;
     padding: 1rem;
     color: aquamarine;
+    opacity: 0;
+    animation: slideTop 2s ease forwards;
 }
 
 .cont-tab{
@@ -81,6 +83,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
 }
 .address{
     display: flex;
@@ -93,6 +97,12 @@
 .addr-icon{
     font-size: 2rem;
     color: rgb(237, 105, 174);
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+}
+.addr-icon ion-icon{
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
 }
 .cont-email{
     color: rgb(235, 206, 225);
@@ -100,6 +110,8 @@
     font-weight: 700;
     font-family: 'Courier New', Courier, monospace;
     padding: 1rem;
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
 }
 
 .iit, .iit-address{
@@ -146,3 +158,62 @@
 .form-x-small{
     width: 10%;
 }
+
+.s1{
+    opacity: 0;
+    animation: slideRight 2s ease forwards;
+}
+
+.s2{
+    opacity: 0;
+    animation: slideLeft 2s ease forwards;
+}
+
+/* keyframe animations */
+@keyframes slideRight {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
+
+@keyframes slideLeft {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
+
+@keyframes slideTop {
+    0% {
+      transform: translateY(-100px);
+      opacity: 0;
+    }
+    
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+@keyframes fadeIn {
+    0% {
+      /* transform: translateY(-100px); */
+      opacity: 0;
+    }
+    
+    100% {
+      /* transform: translateY(0); */
+      opacity: 1;
+    }
+  }

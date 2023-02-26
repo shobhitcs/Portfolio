@@ -6,11 +6,11 @@ const Home = () => {
             <div className="home-head">
 
                 <div className="home-content">
-                    <h3>Hey, I am </h3>
-                    <h1>Shobhit Chauhan</h1>
-                    <h3> <span>Coding Enthusiast</span></h3>
+                    <h3 style={{'animation-delay':'0.2s'}}>Hey, I am </h3>
+                    <h1 style={{'animation-delay':'0.4s'}}>Shobhit Chauhan</h1>
+                    <h3 style={{'animation-delay':'0.6s'}}> <span>Coding Enthusiast</span></h3>
                     <div>
-                        <button>Get In Touch</button>
+                        <button style={{'animation-delay':'0.8s'}}>Get In Touch</button>
                     </div>
                 </div>
                 <div className="home-img">

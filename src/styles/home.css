@@ -14,13 +14,20 @@
 .home-content h1{
   font-size: 3rem;
   font-family: 'Monda', sans-serif;
+  opacity: 0;
+  animation: slideBottom 1s ease forwards;
 }
 .home-content h3{
   font-size: 2rem;
   font-family: 'Maven Pro', sans-serif;
   color: #c2fbd7;
+  opacity: 0;
+  animation: slideBottom 1s ease forwards;
 }
 
+.home-content h3 span {
+  font-family: 'Maven Pro', sans-serif;
+}
 .home-content button{
   background-color: transparent;
   margin-top: 2rem;
@@ -32,6 +39,8 @@
   font-size: 1rem;
   font-weight: 600;
   transition: 0.3s;
+  opacity: 0;
+  animation: slideBottom 1s ease forwards;
 }
 .home-content button:hover{
   background-color: #90e1ae;
@@ -41,13 +50,15 @@
   
 }
 .home-img{
-  width: 600px;
+  width: 550px;
   /* background-color: antiquewhite; */
 }
 
 .home-img img{
   width: 100%;
   pointer-events: none;
+  opacity: 0;
+  animation: scaleZoomUp 1.5s ease forwards;
 }
 
 .home-data{
@@ -61,6 +72,8 @@
 .home-data img{
   pointer-events: none;
   width: 100%;
+  opacity: 0;
+  animation: slideRight 2s ease forwards;
 }
 .code-test-img{
   width: 70vmin;
@@ -115,4 +128,43 @@
   border: 1px solid black;
   width: 0.5rem;
   border-radius: 3rem;
+}
+
+
+/* Keyframe Animations */
+@keyframes slideBottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
