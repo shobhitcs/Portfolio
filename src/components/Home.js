@@ -1,6 +1,8 @@
 import devpic from '../images/dev.png'
 import job_img from '../images/job.png'
-const Home = () => {
+import Typewriter from 'typewriter-effect'
+
+const Home = () => { 
     return ( 
         <div className="home">
             <div className="home-head">
@@ -8,7 +10,13 @@ const Home = () => {
                 <div className="home-content">
                     <h3 style={{'animation-delay':'0.2s'}}>Hey, I am </h3>
                     <h1 style={{'animation-delay':'0.4s'}}>Shobhit Chauhan</h1>
-                    <h3 style={{'animation-delay':'0.6s'}}> <span>Coding Enthusiast</span></h3>
+                    <h3 style={{'animation-delay':'0.6s'}}>
+                        <span >
+                            <Typewriter 
+                            options={{autoStart:true,loop:true,delay:40,
+                            strings:["Coding Enthusiast.", "Web Developer.", " CSE Student."], }}/>
+                        </span>
+                    </h3>
                     <div>
                         <button style={{'animation-delay':'0.8s'}}>Get In Touch</button>
                     </div>

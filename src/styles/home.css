@@ -58,7 +58,7 @@
   width: 100%;
   pointer-events: none;
   opacity: 0;
-  animation: scaleZoomUp 1.5s ease forwards;
+  animation: scaleUp 1.5s ease forwards;
 }
 
 .home-data{
