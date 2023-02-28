@@ -1,5 +1,6 @@
 import devpic from '../images/dev.png'
 import Typewriter from 'typewriter-effect'
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -19,7 +20,7 @@ const Home = () => {
                         </span>
                     </h3>
                     <div>
-                        <button style={{ 'animation-delay': '0.8s' }}>Get In Touch</button>
+                        <Link to="/portfolio/contact"><button style={{ 'animation-delay': '0.8s' }}>Get In Touch</button> </Link>
                     </div>
                 </div>
                 <div className="home-img">

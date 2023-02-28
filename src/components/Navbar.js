@@ -20,16 +20,16 @@ const Navbar = () => {
             <div className="hamburg-open" onClick={()=>{hamburg_open()}}><ion-icon name="menu"></ion-icon></div>
             <div className="nav-items">
                 <li style={{'animation-delay':'0.2s'}}>
-                    <NavLink onClick={()=>{navclose()}} to="/" >Home</NavLink>
+                    <NavLink onClick={()=>{navclose()}} to="portfolio/" >Home</NavLink>
                 </li>
                 <li style={{'animation-delay':'0.4s'}}>
-                    <NavLink onClick={()=>{navclose()}} to="/about" >About</NavLink>
+                    <NavLink onClick={()=>{navclose()}} to="portfolio/about" >About</NavLink>
                 </li>
                 <li style={{'animation-delay':'0.6s'}}>
-                    <NavLink onClick={()=>{navclose()}} to="/projects" >Projects</NavLink>
+                    <NavLink onClick={()=>{navclose()}} to="portfolio/projects" >Projects</NavLink>
                 </li>
                 <li style={{'animation-delay':'0.8s'}}>
-                    <NavLink onClick={()=>{navclose()}} to="/contact" >Contact</NavLink>
+                    <NavLink onClick={()=>{navclose()}} to="portfolio/contact" >Contact</NavLink>
                 </li>
                 <li className="hamcly">
                 <div className="hamburg-close" onClick={()=>{hamburg_open()}}><ion-icon name="close-outline"></ion-icon></div>

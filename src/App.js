@@ -24,10 +24,10 @@ function App() {
         <Navbar />
           <main>
             <Routes>
-              <Route path='/' element={<Home/>} />
-              <Route exact path='/about' element={<About/>} />
-              <Route exact path='/projects' element={<Project/>} />
-              <Route path='/contact' element={<Contact/>} />
+              <Route path='portfolio/' element={<Home/>} />
+              <Route exact path='portfolio/about' element={<About/>} />
+              <Route exact path='portfolio/projects' element={<Project/>} />
+              <Route path='portfolio/contact' element={<Contact/>} />
             </Routes>
           </main>
         </BrowserRouter>
