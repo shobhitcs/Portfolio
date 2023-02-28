@@ -15,7 +15,7 @@ const About = () => {
             <div className="bar-grey"></div>
             <div className="about-data">
                 <div className="about-h"><img src={about_img} alt="" /></div>
-                <div className="abt-content">A Focussed Full Stack Web Developer</div>
+                <div className="abt-content">A Full Stack Web Developer</div>
             </div>
         </div>
      );

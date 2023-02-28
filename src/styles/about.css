@@ -4,7 +4,8 @@
     position: fixed;
     top: 0;
     z-index: -1;
-    height: 300px;
+    padding-top: 200px;
+    height: calc(210px + 3vw);
     width: 100%;
     background-color: #505050;
     display: flex;
@@ -14,25 +15,25 @@
 }
 .question-virtual{
     width: 100%;
-    height: 300px;
+    height:  calc(210px + 3vw);
     background-color: transparent;
 }
 .bar-grey{
     height: 10px;
     width: 100%;
-    background-color: rgb(229, 229, 150);
+    background-color: skyblue;
 }
 .who{
-    font-size: 3rem;
+    font-size: calc(25px + 1.2vw);
     font-weight: bolder;
-    color: rgb(224, 224, 118);
+    color: skyblue;
     font-family: 'Maven Pro', sans-serif;
     opacity: 0;
     animation: scaleZoomUp 2s ease forwards;
 }
 .question ion-icon{
-    font-size: 7rem;
-    color: white;
+    font-size: 5rem;
+    color: lightblue;
     z-index: -1;
     opacity: 0;
     animation: scaleZoomUp 2s ease forwards;
@@ -44,45 +45,46 @@
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     background-color: #303030;
     color: white;
 }
 .about-h{
-    width: 50vw;
+    width: calc(150px + 40vw);
     
 }
 .about-h img{
     width: 100%;
     pointer-events: none;
     opacity: 0;
-    animation: fadeIn 4s ease forwards;
+    animation: slideBottom 2s ease forwards;
     /* animation: scaleZoomUp 4s ease forwards; */
 }
 
 .abt-content{
-    font-size: 2rem;
+    font-size: calc(15px + 2vw);
     font-family: 'Barlow', sans-serif;
     font-weight: 700;
+    text-align: center;
 }
 
 /* Keyframe animations */
 @keyframes scaleZoomUp {
     0% {
-      transform: scale(0.5);
-      opacity: 0;
+        transform: scale(0.5);
+        opacity: 0;
     }
     
     50% {
-      transform: scale(1.2);
-      opacity: 1;
+        transform: scale(1.2);
+        opacity: 1;
     }
     
     100% {
-      transform: scale(1);
+        transform: scale(1);
       opacity: 1;
     }
-  }
+}
 
 
 @keyframes fadeIn {
@@ -95,4 +97,13 @@
         transform: translateY(0);
         opacity: 1;
     }
-  }
+}
+
+  @media only screen and (max-width:750px)  {
+    .about-data{
+        /* width: calc(150px + 40vw); */
+        height: 80vh;
+        
+    }
+    
+}

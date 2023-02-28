@@ -14,12 +14,6 @@
 }
 
 .home-content{
-  /* max-width: 80vw; */
-  /* width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; */
-  /* background-color: #90e1ae; */
   padding-right: 40px;
 }
 .home-content h1{
@@ -61,7 +55,7 @@
   
 }
 .home-img{
-  width: calc(370px + 10vw);
+  width: calc(330px + 12vw);
   
 }
 
@@ -74,7 +68,7 @@
 
 .home-data{
   background-color: #303030;
-  height: 90vmin;
+  height: 70vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -87,63 +81,37 @@
   animation: slideRight 2s ease forwards;
 }
 .code-test-img{
-  width: calc(350px + 6vw);
+  width: calc(300px + 6vw);
 }
-.performance{
-  /* padding: 100px; */
-  width: 100vmin;
-  height: calc(350px + 2vw);
-  background-color: rgb(51, 73, 103);
-  border-radius: 2rem;
-  box-shadow: 15px 15px 10px 5px black;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 0.8rem;
-}
+
 .card{
+  visibility: visible;
   background-color: rgb(35, 35, 35);
-  height: 90%;
-  width: 88%;
+  height: 100%;
+  width: 100%;
   padding: 1rem;
-  /* border-radius: 0.5rem; */
-  position: relative;
-  transition: 0.5s;
   display: flex;
-  border-radius: 0.5rem;
+  /* border-radius: 0.5rem; */
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  width: 100vw;
+  /* box-shadow: 10px 10px 5px 5px black; */
 }
 .card-head{
   color: rgb(224, 139, 107);
   padding: 1rem;
-  font-size: 1.5rem;
+  font-size: calc(17px + 1vw);
   font-weight: 600;
   text-align: center;
 }
 .card-body{
   text-align: center;
   color: whitesmoke;
-  font-size: 1.1rem;
+  font-size: calc(12px + 0.7vw);
+  /* font-size: 1.1rem; */
 }
-/* .card:hover{
-  top: -10px;
-} */
-.push-btn{
-  background-color: black;
-  height: 4rem;
-  width: 1.8rem;
-  border-radius: 3rem;
-  border: 1px solid rgb(141, 140, 140);
-}
-.speaker{
-  background-color: black;
-  height: 6rem;
-  border: 1px solid black;
-  width: 0.5rem;
-  border-radius: 3rem;
-}
+
 
 
 /* Keyframe Animations */
@@ -186,23 +154,10 @@
 
 
 /* Media query */
-@media only screen and (max-width:719px)  {
+@media only screen and (max-width:750px)  {
   .home-head{
     flex-direction: column;
     height: 100vmax;
   }
-  .home-data{
-    flex-direction: column;
-    height: 90vmax;
-  }
-  .performance{
-    visibility: hidden;
-  }
-  .card{
-    visibility: visible;
-    width: 100vw;
-    box-shadow: 10px 10px 5px 5px black;
-
-  }
-  
+    
 }

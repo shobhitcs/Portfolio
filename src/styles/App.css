@@ -25,19 +25,16 @@
 
 .navbar .logo{
   font-weight: 700;
-  font-size: 2.3rem;
+  font-size: 2em;
   font-family: 'Barlow', sans-serif;
   opacity: 0;
   animation: slideRight 2s ease forwards;
-  /* padding: 0 5rem 0 0 ; */
-  /* background-color: green; */
+  
 }
 .nav-items{
   display: flex;
   z-index: 1;
-  /* padding: 0 0 0 5rem; */
-  /* background-color: aqua; */
-  /* transition: 0.2s; */
+  
 }
 .nav-items li{
   /* display: inline-block; */
@@ -45,7 +42,7 @@
   padding: 1rem;
   opacity: 0;
   animation: slideTop 1s ease forwards;
-  /* animation-delay: calc(0.2s * var(--i)); */
+  
   
 }
 .nav-items li a{
@@ -94,7 +91,7 @@
   font-size: 2.3rem;
   color: white;
   /* background-color: #4f6758; */
-  box-shadow: 3px 3px 3px 1px black;
+  /* box-shadow: 3px 3px 3px 1px black; */
   animation: slideLeft 2s ease forwards;
   display: none;
 }
@@ -103,7 +100,7 @@
   display: none;
 }
 /* Media query */
-@media only screen and (max-width:700px)  {
+@media only screen and (max-width:750px)  {
   .nav-items{
     display: none;
   }
