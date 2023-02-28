@@ -14,7 +14,7 @@ const Home = () => {
                         <span >
                             <Typewriter 
                             options={{autoStart:true,loop:true,delay:40,
-                            strings:["Coding Enthusiast.", "Web Developer.", " CSE Student."], }}/>
+                            strings:["Coding Enthusiast", "Web Developer", " CSE Student"], }}/>
                         </span>
                     </h3>
                     <div>
