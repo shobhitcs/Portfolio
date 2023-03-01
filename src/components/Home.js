@@ -20,7 +20,7 @@ const Home = () => {
                         </span>
                     </h3>
                     <div>
-                        <Link to="/portfolio/contact"><button style={{ 'animation-delay': '0.8s' }}>Get In Touch</button> </Link>
+                        <Link to="contact"><button style={{ 'animation-delay': '0.8s' }}>Get In Touch</button> </Link>
                     </div>
                 </div>
                 <div className="home-img">

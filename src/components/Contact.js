@@ -20,12 +20,11 @@ const Contact = () => {
                 <div className="cont-group">
                     <div className="cont-form">
                         <form action="">
-                            <div className="name-submit form-big">
-                                <input type="text" placeholder="First Name" className="form-small s1" />
-                                <input type="text" placeholder="Last Name" className="form-small s2" />
-                            </div>
+                            
+                            <input type="text" placeholder="Your Name" className="form-big " />
+                               
                             <input type="text" placeholder="Subject" className="form-big" />
-                            <input type="email" placeholder="Your Email" className="form-big" />
+                            <input type="email" placeholder="Your Email Address" className="form-big" />
                             <textarea name="message" placeholder="Message" className="form-big" id="" cols="30" rows="10"></textarea>
                             <input type="submit" value="Send" className="form-x-small" />
                         </form>
