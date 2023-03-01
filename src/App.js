@@ -6,7 +6,7 @@ import './styles/about.css';
 import './styles/project.css';
 import './styles/contact.css';
 import './styles/emailfloat.css';
-import { BrowserRouter, Routes,Route } from 'react-router-dom'
+import { HashRouter,  Routes,Route } from 'react-router-dom'
 import Home from './components/Home';
 import About from './components/About';
 import Footer from './components/footer';
@@ -20,17 +20,17 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <BrowserRouter>
+        <HashRouter>
         <Navbar />
           <main>
             <Routes>
-              <Route path='portfolio/' element={<Home/>} />
-              <Route exact path='portfolio/about' element={<About/>} />
-              <Route exact path='portfolio/projects' element={<Project/>} />
-              <Route path='portfolio/contact' element={<Contact/>} />
+              <Route path='/' element={<Home/>} />
+              <Route exact path='about' element={<About/>} />
+              <Route exact path='projects' element={<Project/>} />
+              <Route path='contact' element={<Contact/>} />
             </Routes>
           </main>
-        </BrowserRouter>
+        </HashRouter>
       </header>
       <EmailFloat />
       <Footer/>
